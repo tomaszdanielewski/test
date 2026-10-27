@@ -27,6 +27,10 @@ Pong.config = {
     right: { up: 'ArrowUp', down: 'ArrowDown' },
   },
 
+  ai: {
+    maxSpeed: 300, // px/s; mniej niż prędkość piłki, więc AI da się ograć ostrymi odbiciami
+  },
+
   colors: {
     background: '#000',
     foreground: '#fff',
