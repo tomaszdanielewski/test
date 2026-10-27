@@ -6,7 +6,7 @@ Pong.Paddle = class Paddle {
     this.y = y;
     this.width = width;
     this.height = height;
-    // Prędkość pionowa w px/s. Sterowanie (klawiatura, AI) ustawi ją w kolejnych etapach.
+    // Prędkość pionowa w px/s. Ustawia ją sterowanie (klawiatura, a w przyszłości AI).
     this.dy = 0;
   }
 
